@@ -10,6 +10,7 @@ import Foundation
 
 // idea (컨닝): 뒤에서부터 탐색을 해서 최대값을 갱신해주면서 구매 판매 판단
 
+/*
 let t = Int(readLine()!)!
 
 for _ in 0..<t {
@@ -30,3 +31,4 @@ for _ in 0..<t {
     print(gain)
     
 }
+*/

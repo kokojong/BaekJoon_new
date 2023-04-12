@@ -78,6 +78,7 @@ for i in 0..<n {
 // 문제는 '가장 긴 연속 부분(행 또는 열)을 고른 다음 그 사탕을 모두 먹는다' 였는데
 // dfs를 하다가 막혔다 ㅋㅋㅋㅋㅋㅋㅋㅋ 다시 작성 시작...!
 
+/*
 let n = Int(readLine()!) ?? 0
 var board: [[Character]] = []
 for _ in 0..<n {
@@ -142,3 +143,4 @@ for i in 0..<n {
 }
 
 print(answer)
+*/

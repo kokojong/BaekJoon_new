@@ -32,3 +32,23 @@ for _ in 0..<t {
     
 }
 */
+
+let t = Int(readLine()!)!
+
+for _ in 0..<t {
+    let n = Int(readLine()!)!
+    let arr = Array(readLine()!.split(separator: " ").map { Int(String($0))! }.reversed())
+    
+    var gain = 0
+    var maxValue = arr[0] // 원래 제일 끝 값 -> 현재는 처음 값
+    
+    for value in arr {
+        if value >= maxValue {
+            maxValue = value // 갱신
+            gain += 0
+        } else {
+            gain += (maxValue - value)
+        }
+    }
+    print(gain)
+}

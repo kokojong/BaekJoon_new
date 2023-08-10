@@ -14,7 +14,6 @@ hh = h // g  # 간소화 된 w, h
 # 실제로는 w + h -1 과 같다.
 cut = ((ww * hh) - (ww - 1) * (hh - 1))
 
-
 answer = cut * g
 
 print(answer)

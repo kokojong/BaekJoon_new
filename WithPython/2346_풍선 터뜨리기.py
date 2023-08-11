@@ -16,4 +16,4 @@ while queue:
     else:
         queue.rotate(-value)
 
-print(''.join(map(str, answer)))
+print(' '.join(map(str, answer)))

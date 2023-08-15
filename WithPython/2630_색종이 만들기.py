@@ -35,7 +35,7 @@ def divide(row, column, n):
             for c in range(column, column + n):
                 board[r][c] = -1
     else:
-        k = n//2
+        k = n//2  # 실수한 부분: k = N//2로 표기함..
         divide(row, column, k)
         divide(row + k, column, k)
         divide(row, column + k, k)

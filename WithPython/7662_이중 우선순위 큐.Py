@@ -1,4 +1,4 @@
-# 백준 7662 이중 우선순위 큐
+# 백준 7662 이중 우선순위 큐 골4
 
 from collections import defaultdict
 import heapq

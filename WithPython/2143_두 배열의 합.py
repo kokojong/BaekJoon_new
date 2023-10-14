@@ -1,3 +1,5 @@
+# 백준 2143 두 배열의 합 골3
+
 from collections import Counter
 import sys
 input = sys.stdin.readline

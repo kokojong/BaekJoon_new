@@ -33,7 +33,7 @@ for l in range(N-2):  # 맨 왼쪽 고정
         elif total > 0:
             r -= 1
         else:  # 0과 동일한 경우
-            print(" ".join(map(str, answer)))
+            print(answer[0], answer[1], answer[2])
             exit()
 
-print(" ".join(map(str, answer)))
+print(answer[0], answer[1], answer[2])

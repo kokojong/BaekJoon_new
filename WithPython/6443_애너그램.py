@@ -5,8 +5,8 @@ from collections import defaultdict
 N = int(input())
 
 
-def backTrack(depth):
-    if depth == len(arr):
+def backTrack():
+    if len(word) == len(arr):
         print(''.join(word))
         return
 
@@ -14,7 +14,7 @@ def backTrack(depth):
         if alphaDict[a]:  # 아직
             alphaDict[a] -= 1
             word.append(a)
-            backTrack(depth + 1)
+            backTrack()
             word.pop()
             alphaDict[a] += 1
 
@@ -29,4 +29,4 @@ for _ in range(N):
         alphaDict[a] += 1  # 존재여부 - 있다!
     # print("alpha dict", alphaDict)
     word = []
-    backTrack(0)
+    backTrack()

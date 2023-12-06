@@ -5,10 +5,10 @@
 
 N = int(input())
 
-dp = [False for _ in range(1001)]
+dp = [False for _ in range(N+1)]
 dp[2] = True
 
-for i in range(4, N):
+for i in range(4, N+1):
     if dp[i-1] == False:
         dp[i] = True
     if dp[i-3] == False:

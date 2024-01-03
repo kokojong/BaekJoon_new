@@ -26,7 +26,7 @@ while l < N and r < N:  # 1개인것도 되기 때문에 left, right가 같아�
             numbers.add(arr[r+1])
             r += 1
             # print("add 성공", numbers)
-            answer += (r - l + 1)  # set의 크기
+            answer += (r - l + 1)  # 새로 추가되면서 만들수 있는 경우의 수
         else:
             numbers.remove(arr[l])
             l += 1

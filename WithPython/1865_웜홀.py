@@ -22,6 +22,7 @@ def belman():
             e = edge[1]
             t = edge[2]
 
+            # distances[s] != INF 조건이 있으면 틀리다고 나옴
             if distances[s] + t < distances[e]:  # 갱신 가능
                 distances[e] = distances[s] + t
 

@@ -24,7 +24,7 @@ while queue:
         rr = r + dr[i]
         cc = c + dc[i]
 
-        if 0 <= rr < N and 0 < cc < N and board[rr][cc] == INF:
+        if 0 <= rr < N and 0 <= cc < N and board[rr][cc] == INF:
             board[rr][cc] = cost + 1
             queue.append((cost+1, rr, cc))
 

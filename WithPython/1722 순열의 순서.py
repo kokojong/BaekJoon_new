@@ -8,6 +8,8 @@ arr = ins[1:]
 
 sets = {}
 
+# set에다가 몇째자리에 몇인지 저장해둠.
+
 
 def find_permutations(n):
     if n in sets:
